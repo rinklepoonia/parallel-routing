@@ -3,9 +3,9 @@ import React from 'react'
 const page = () => {
   return (
       <div>
-          <p>hero section</p>
-          <p>about section</p>
-          <p>about us section</p>
+        <p>portfolio hero</p>
+        <p>portfolio about</p>
+        <p>portfolio footer</p>
     </div>
   )
 }

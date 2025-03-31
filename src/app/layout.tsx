@@ -1,8 +1,5 @@
 
 import "./globals.css";
-
-
-
 export default function RootLayout({
   children, about, portfolio, home
 }: Readonly<{
@@ -16,9 +13,11 @@ export default function RootLayout({
     <html lang="en">
       <body>
         {children}
-        {home}
-        {about}
-        {portfolio}
+        <div className="flex items-center gap-40">
+          {home}
+          {about}
+          {portfolio}
+        </div>
       </body>
     </html>
   );

@@ -1,7 +1,9 @@
+"use client";
 import React from 'react'
 
+
 const page = () => {
-  return (
+  return ( 
     <div>default about</div>
   )
 }
