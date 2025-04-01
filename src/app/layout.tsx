@@ -13,7 +13,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         {children}
-        <div className="flex items-center gap-40">
+        <div className="flex flex-col gap-10">
           {home}
           {about}
           {portfolio}
